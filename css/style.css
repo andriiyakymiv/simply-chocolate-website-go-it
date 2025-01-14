@@ -1,0 +1,207 @@
+:root {
+    --color-black: #111111;
+    --color-violet: #1E1823;
+    --color-gray: #4C4C4C;
+    --color-orange: #FD9222;
+    --color-beige: #FCF1E0;
+    --color-light: #FAFAFA;
+    --color-white: #FFFFFF;
+    --color-gray: #4c4c4c;
+    --colot-marker-body: #4c4c4c;
+    --color-marker-border: #eceded;
+        
+    
+}
+
+/*—————————————————— General ———————*/
+/* #region */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, serif;
+    color: var(--color-black);
+    background-color: var(--color-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+input,
+textarea,
+button {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    color: currentColor;
+}
+
+.container {
+    padding-right: 32px;
+    padding-left: 32px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        width: 335px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+/* #endregion */
+
+/*—————————————————— 01 - Header ——————————————*/
+/* #region */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    padding: 24px 32px;
+    width: 1200px;
+    height: 80px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: var(--color-black);
+}
+
+.header__logo-italic {
+    font-style: italic;
+}
+
+.header__nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    color: var(--color-black);
+}
+
+.header__nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    color: var(--color-black);
+}
+
+/* #endregion */
+
+/*—————————————————— 02 - Hero ————————————————*/
+/* #region */
+
+/* .hero {
+    background: rgba(17, 17, 17, 0.4);
+} */
+
+/* .hero__title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: var(--color-white);
+} */
+
+/* .hero__button {
+
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 144px;
+    height: 45px;
+    background: var(--color-orange);
+} */
+
+/* .hero__link-how {} */
+
+/* .hero__link-scroll {} */
+
+
+/* #endregion */
+
+/*—————————————————— 03 - Benefit —————————————*/
+/* #region */
+/* #endregion */
+
+/*—————————————————— 04 - Ingridients —————————*/
+/* #region */
+/* #endregion */
+
+/*—————————————————— 05 - How it's made? —————*/
+/* #region */
+/* #endregion */
+
+/*—————————————————— 06 - Our products ———————*/
+/* #region */
+/* #endregion */
+
+/*—————————————————— 07 - Top sellers ———————*/
+/* #region */
+/* #endregion */
+
+/*—————————————————— 08 - Reviews  ———————————*/
+/* #region */
+/* #endregion */
+
+/*—————————————————— 09 - Footer  ———————————*/
+/* #region */
+/* #endregion */

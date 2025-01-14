@@ -4,55 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Chocolate</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Simply Chocolate</title>
     <link rel="shortcut icon" href="/image/00-general/chocolate-icon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- ——————————————— 01 - Header ——————————————— -->
-    <header class="header">
-        <nav class="header__nav">
-            <a class="header__logo" href="./index.html"></a>
-            <ul class="header__nav-list">
-                <li class="header__nav-item">
-                    <a class="header__nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="header__nav-item">
-                    <a class="header__nav-link" href="#howmade">How it's made?</a>
-                </li>
-                <li class="header__nav-item">
-                    <a class="header__nav-link" href="#loved">Chocolate is loved</a>
-                </li>
+    <header class="header container">
+        <div class="header-container">
+            <nav class="header__nav">
+                <a class="header__logo" href="./index.html"><span class="header__logo-italic">Simply</span>
+                    Chocolate</a>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#howmade">How it's made?</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#loved">Chocolate is loved</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header__social-list">
+                <li class="header__social-item"><a href="#" class="header__social-link">
+                        <img src="./image/01-header/icon-facebook.svg" alt="Facebook">
+                    </a></li>
+                <li class="header__social-item"><a href="#" class="header__social-link">
+                        <img src="./image/01-header/icon-instagram.svg" alt="Instagram">
+                    </a></li>
+                <li class="header__social-item"><a href="#" class="header__social-link">
+                        <img src="./image/01-header/icon-twitter.svg" alt="Twitter">
+                    </a></li>
             </ul>
-        </nav>
-        <ul class="header__social-list">
-            <li class="header__social-item"><a href="#" class="header__social-link">
-                    <img src="./image/01-header/icon-facebook.svg" alt="Facebook">
-                </a></li>
-            <li class="header__social-item"><a href="#" class="header__social-link">
-                    <img src="./image/01-header/icon-instagram.svg" alt="Instagram">
-                </a></li>
-            <li class="header__social-item"><a href="#" class="header__social-link">
-                    <img src="./image/01-header/icon-twitter.svg" alt="Twitter">
-                </a></li>
-        </ul>
+            <button class="mobile-menu__open js-open-menu" type="button" aria-expanded="false">
+                <svg class="mobile-menu__open-icon" width="28" height="28" aria-label="Open mobile menu"
+                    stroke="#212121">
+                    <use href="./image/00-general/icon.svg#icon-menu-icon"></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="mobile-menu__container">
+            <div class="mobile-menu__wraper">
+                <button class="mobile-menu__button-close" type="button">
+                    <use href="./image/00-general/icon.svg#icon-menu-icon"></use>
+                </button>
+            </div>
+
+        </div>
+
+
+
+
     </header>
     <main>
         <!-- ——————————————— 02 - Hero ——————————————— -->
-        <section class="hero">
+        <!-- <section class="hero">
             <h1 class="hero__title">Treat yourself or a loved one to our finest ingredients for a moment of pure
                 delight!</h1>
             <button class="hero__button" type="button">Buy now</button>
             <a href="#" class="hero__link-how">How it's made</a>
             <a href="#" class="hero__link-scroll">scroll down</a>
             <img src="./image/02-hero/arrow-down.svg" alt="Scroll down">
-        </section>
+        </section> -->
         <!-- ——————————————— 03 - Benefit ——————————————— -->
-        <section class="benefit">
+        <!-- <section class="benefit">
             <h2 class="benefit" hidden>Benefit</h2>
             <ul class="benefit__list">
                 <li class="benefit__list-item">
@@ -79,9 +105,9 @@
                         bite.</p>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <!-- ——————————————— 04 - Ingridients ——————————————— -->
-        <section class="ingridients">
+        <!-- <section class="ingridients">
             <h2 class="ingridients__title">It all adds up to one exceptional taste sensation</h2>
             <ul class="ingridients__list">
                 <li class="ingridients__list-item">
@@ -134,9 +160,9 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <!-- ——————————————— 05 - How it's made? ——————————————— -->
-        <section class="howmade" id="howmade">
+        <!-- <section class="howmade" id="howmade">
             <h2 class="howmade__title">How it's made?</h2>
 
             <ul class="howmade__list">
@@ -162,9 +188,9 @@
                     </ul>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <!-- ——————————————— 06 - Our products ——————————————— -->
-        <section class="product">
+        <!-- <section class="product">
             <ul class="product__list">
                 <li class="product__item">
                     <img class="product__item-img" src="./image/06-products/orange.png" width="230" height="201"
@@ -223,9 +249,9 @@
                     <button class="product__item-button">54 UAH</button>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <!-- ——————————————— 07 - Top sellers ——————————————— -->
-        <section class="sellers">
+        <!-- <section class="sellers">
             <h2 class="sellers__title">Top sellers</h2>
             <ul class="sellers__list">
                 <li class="sellers_list-item">
@@ -243,9 +269,9 @@
                     <h3 class="sellers_list-title">Dark chocolate</h3>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <!-- ——————————————— 08 - Reviews (Chocolate is loved) ——————————————— -->
-        <section class="reviews" id="loved">
+        <!-- <section class="reviews" id="loved">
             <h2 class="reviews__title">Chocolate is loved</h2>
             <ul class="reviews__list">
                 <li class="reviews__list-item">
@@ -273,10 +299,9 @@
                 </li>
             </ul>
             <button class="reviews__button" type="button">Leave a review</button>
-        </section>
-
+        </section> -->
         <!-- ——————————————— 09 - Footer ——————————————— -->
-        <footer>
+        <!-- <footer>
             <div class="footer-top">
                 <p class="footer-top__slogan">Chocolate a delicious cure for a bad day</p>
                 <p class="footer-top__social-title">Social networks</p>
@@ -319,7 +344,7 @@
                     </li>
                 </ul>
             </div>
-        </footer>
+        </footer> -->
 
     </main>
 
