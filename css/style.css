@@ -7,7 +7,7 @@
     --color-light: #FAFAFA;
     --color-white: #FFFFFF;
     --color-gray: #4c4c4c;
-    --colot-marker-body: #4c4c4c;
+    --color-marker-body: #4c4c4c;
     --color-marker-border: #eceded;
         
     
@@ -323,6 +323,9 @@ button {
 
 /*—————————————————— 02 - Hero ————————————————*/
 /* #region */
+.hero {
+    padding-bottom: 80px;
+}
 
 .hero__bg-image {
     width: 100%;
@@ -425,9 +428,37 @@ flex-wrap: wrap;
 
 /*—————————————————— 03 - Benefit —————————————*/
 /* #region */
+.benefit {
+    background-color: #1e1823;
+}
+
+.benefit__list {}
+
+.benefit__list-item {}
+
+.benefit__list-icon {
+    
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    width: 62px;
+    height: 62px;
+}
+
+.benefit__list-title {}
+
+.benefit__list-text {}
+
+
+
+
+
+
+
+
+
 /* #endregion */
 
-/*—————————————————— 04 - Ingridients —————————*/
+/*—————————————————— 04 - Ingredients —————————*/
 /* #region */
 /* #endregion */
 
