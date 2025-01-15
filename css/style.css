@@ -331,6 +331,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../image/02-hero/hero-bg_mob@1x.jpg');
+    
     border-radius: 30px;
 }
 
@@ -341,8 +342,12 @@ button {
 }
 
 .hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     padding: 395px 20px 20px;
-    
+
+
 }
 
 .hero__title {
@@ -353,24 +358,66 @@ button {
     color: var(--color-white);
 }
 
-.hero__button {
+.hero__button-wrapper {
     display: flex;
-    border: none;
-    border-radius: 100px;
-    padding: 12px 28px;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.hero__button-wrapper-box {
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.hero__button {
     width: 120px;
     height: 41px;
+    margin-right: 14px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
     background: var(--color-orange);
 }
+
+
 
 .hero__link-how {
     border: 1px solid #ffffff;
     border-radius: 100px;
-    padding: 12px 28px;
     width: 159px;
     height: 41px;
+    padding: 12px;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
 }
 
+.hero__link-down {
+    display: flex;
+    align-items: center;
+
+    column-gap: 12px;
+    
+
+}
+
+.hero__link-scroll {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.hero__link-scroll-icon {
+    border-radius: 100%;
+    background-color: #ffffff;
+}
 
 
 
