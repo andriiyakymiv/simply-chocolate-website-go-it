@@ -255,10 +255,6 @@ button {
     color: var(--color-black);
 }
 
-
-
-
-
 .header__social-list {
     display: flex;
     align-items: flex-start;
@@ -427,7 +423,6 @@ button {
         }
 }
 
-
 .hero__bg-image {
     width: 100%;
     height: 620px;
@@ -592,8 +587,42 @@ flex-wrap: wrap;
     background-color: #1e1823;
 }
 
+@media screen and (min-width: 768px) {
+    .benefit {
+        padding: 50px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .benefit__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 88px;
+        row-gap: 44px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .benefit__list-item {
+        max-width: 308px;
+    }
+}
+
+
+
 .benefit__list-item:not(:first-child) {
     margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .benefit__list-item:not(:first-child) {
+        margin-top: 0;
+    }
 }
 
 .benefit__list-icon {
