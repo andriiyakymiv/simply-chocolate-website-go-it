@@ -536,33 +536,63 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal__window">
                 <button class="modal__button-close" data-modal-close>
-                    <svg class="modal__button-icon">
-                        <use href="./image/00-general/icon.svg#icon-close"></use>
+                    <svg class="modal__button-icon" width="24" height="24">
+                        <use href="./image/00-general/symbol-defs.svg#icon-close"></use>
                     </svg>
                 </button>
-                <h2 class="modal__title">leave a review about <span class="modal__title-select">our chocolate</span>
+                <h2 class="modal__title">leave a review <br> about <span class="modal__title-select">our
+                        chocolate</span>
                 </h2>
                 <form action="#">
-
-                    <label for="">
-                        <input type="text" name="" id="">
-                    </label>
-
-
-
-
-
-
-
-
-
-
-
+                    <div class="label__wrapper">
+                        <label class="label__title" for="username">Name</label>
+                        <div class="input__wrapper">
+                            <input class="label__input" type="text" name="username" id="username">
+                            <svg class="label__input-icon" width="18" height="18">
+                                <use href="./image/00-general/symbol-defs.svg#icon-user"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="label__wrapper">
+                        <label class="label__title" for="useremail">Email</label>
+                        <div class="input__wrapper">
+                            <input class="label__input" type="email" name="useremail" id="useremail">
+                            <svg class="label__input-icon" width="18" height="18">
+                                <use href="./image/00-general/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="label__wrapper">
+                        <label class="label__title" for="userphone">Phone number</label>
+                        <div class="input__wrapper">
+                            <input class="label__input" type="tel" name="userphone" id="userphone">
+                            <svg class="label__input-icon" width="18" height="18">
+                                <use href="./image/00-general/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="label__wrapper-textarea">
+                        <label class="label__title" for="usercomment">Comment</label>
+                        <div class="input__wrapper">
+                            <textarea class="label__textarea" name="usercomment" id="usercomment"
+                                placeholder="Enter text"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal__check-wrapper">
+                        <input class="modal__check-input visually-hidden" type="checkbox" id="user-privacy" value="true"
+                            name="user-privacy">
+                        <label class="modal__check-label" for="user-privacy">
+                            <span class="modal__check-box">
+                                <svg class="modal__check-box-icon" width="10" height="10">
+                                    <use href="./image/00-general/symbol-defs.svg#icon-check"></use>
+                                </svg>
+                            </span>
+                            &nbsp I accept the terms and conditions of the
+                            <a class="modal__checkbox-link" href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button class="modal__button-send" type="submit">Send</button>
                 </form>
-
-
-
-
             </div>
         </div>
 
