@@ -17,7 +17,9 @@
 </head>
 
 <body>
+
     <!-- ————— 01 - Header ————— -->
+
     <header class="header container">
         <div class="header-container">
             <nav class="header__nav">
@@ -70,7 +72,9 @@
                 </li>
             </ul>
         </div>
+
         <!-- ————— 01-1 - Mobile Menu ————— -->
+
         <div class="mobile-menu__container js-menu-container">
             <div class="mobile-menu__wrapper">
                 <button class="mobile-menu__button-close js-close-menu" type="button">
@@ -126,7 +130,7 @@
                         delight!</h1>
                     <div class="hero__button-wrapper">
                         <div class="hero__button-wrapper-box">
-                            <button class="hero__button" type="button">Buy now</button>
+                            <button class="hero__button" type="button" data-modal-open>Buy now</button>
                             <a href="#" class="hero__link-how">How it's made</a>
                         </div>
                         <div class="hero__link-down">
@@ -408,7 +412,7 @@
             </div>
         </section>
 
-        <!-- ——————————————— 08 - Reviews (Chocolate is loved) ——————————————— -->
+        <!-- ————— 08 - Reviews ————— -->
 
         <section class="reviews section" id="loved">
             <div class="container">
@@ -454,7 +458,9 @@
                 <button class="reviews__button" type="button">Leave a review</button>
             </div>
         </section>
-        <!-- ——————————————— 09 - Footer ——————————————— -->
+
+        <!-- ————— 09 - Footer ————— -->
+
         <footer class="footer">
             <div class="container">
                 <div class="footer-top">
@@ -525,9 +531,45 @@
             </div>
         </footer>
 
+        <!-- ————— 010 - Modal Window ————— -->
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal__window">
+                <button class="modal__button-close" data-modal-close>
+                    <svg class="modal__button-icon">
+                        <use href="./image/00-general/icon.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <h2 class="modal__title">leave a review about <span class="modal__title-select">our chocolate</span>
+                </h2>
+                <form action="#">
+
+                    <label for="">
+                        <input type="text" name="" id="">
+                    </label>
+
+
+
+
+
+
+
+
+
+
+
+                </form>
+
+
+
+
+            </div>
+        </div>
+
     </main>
 
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
