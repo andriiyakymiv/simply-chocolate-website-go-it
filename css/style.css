@@ -94,8 +94,6 @@ button {
     }
 }
 
-
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -221,7 +219,6 @@ button {
     padding: 0;
 }
 
-
 @media screen and (min-width: 768px) {
     .mobile-menu__open {
         display: none;
@@ -242,7 +239,6 @@ button {
         
     }
 }
-
 
 .header__nav-link {
     font-weight: 500;
