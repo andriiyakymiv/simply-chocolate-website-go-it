@@ -9,9 +9,7 @@
     --color-gray: #4c4c4c;
     --color-marker-body: #4c4c4c;
     --color-marker-border: #eceded;
-    --gradient-hero-image: linear-gradient(rgba(17, 17, 17, 0.4),rgba(17, 17, 17, 0.4));
-        
-    
+    --gradient-hero-image: linear-gradient(rgba(17, 17, 17, 0.4),rgba(17, 17, 17, 0.4));   
 }
 
 /*—————————————————— General ———————*/
