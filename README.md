@@ -1,4 +1,4 @@
-**Project is a visually appealing and responsive website for a chocolate brand, showcasing products, brand story, and features with smooth navigation. It highlights a modern design with engaging visuals and a user-friendly layout.**
+**Simply Chocolate is a visually appealing and responsive website for a chocolate brand, showcasing products, brand story, and features with smooth navigation. It highlights a modern design with engaging visuals and a user-friendly layout.**
 
 ## Project Overview
 
